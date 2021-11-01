@@ -1,0 +1,55 @@
+html {
+    font-size: 16px;
+}
+
+header {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+body .gist .gist-data {
+    border-bottom: none;
+    border-radius: 0;
+}
+
+/*
+body .gist .blob-wrapper {
+    border-radius: 0;
+}
+*/
+
+body .gist .gist-meta {
+    display: none;
+}
+
+body .gist {
+    margin-bottom: 0;
+    margin-right: 0;
+    border: 4px solid black;
+    border-radius: 0;
+    max-height: 3rem;
+    overflow: hidden;
+    flex: 0 1 20rem;
+}
+
+#gist-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#gist111280255:hover {
+    max-height: 20rem;
+    
+}
